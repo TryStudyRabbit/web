@@ -7,7 +7,7 @@
     
     <!-- Header -->
     <rect x="50" y="30" width="300" height="50" rx="8 8 0 0" fill="#4a6fd3" />
-    <text x="200" y="60" font-family="Arial" font-size="16" fill="white" text-anchor="middle">StudyBuddy Settings</text>
+    <text x="200" y="60" font-family="Arial" font-size="16" fill="white" text-anchor="middle">StudyRabbit Settings</text>
     
     <!-- Timer Settings Section -->
     <text x="70" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Timer Settings</text>

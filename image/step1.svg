@@ -10,7 +10,7 @@
     <text x="100" y="110" font-family="Arial" font-size="28" fill="white" text-anchor="middle">SB</text>
     
     <!-- Extension Info -->
-    <text x="150" y="90" font-family="Arial" font-size="16" font-weight="bold" fill="#333">StudyBuddy</text>
+    <text x="150" y="90" font-family="Arial" font-size="16" font-weight="bold" fill="#333">StudyRabbit</text>
     <text x="150" y="110" font-family="Arial" font-size="12" fill="#666">Focus Timer & Task Manager</text>
     <text x="150" y="130" font-family="Arial" font-size="12" fill="#666">★★★★★ (487)</text>
     

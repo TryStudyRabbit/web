@@ -185,7 +185,7 @@ function initVideoPlayer() {
             iframe.width = '100%';
             iframe.height = '100%';
             iframe.src = 'https://www.youtube.com/embed/YOUR_VIDEO_ID?autoplay=1';
-            iframe.title = 'StudyBuddy Demo Video';
+            iframe.title = 'StudyRabbit Demo Video';
             iframe.frameborder = '0';
             iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture';
             iframe.allowFullscreen = true;
