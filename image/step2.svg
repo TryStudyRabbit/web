@@ -1,0 +1,42 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+    <!-- Settings Page Background -->
+    <rect x="0" y="0" width="400" height="300" rx="8" fill="#f5f7fa" />
+    
+    <!-- Settings Card -->
+    <rect x="50" y="30" width="300" height="240" rx="8" fill="white" stroke="#e0e0e0" stroke-width="1" />
+    
+    <!-- Header -->
+    <rect x="50" y="30" width="300" height="50" rx="8 8 0 0" fill="#4a6fd3" />
+    <text x="200" y="60" font-family="Arial" font-size="16" fill="white" text-anchor="middle">StudyBuddy Settings</text>
+    
+    <!-- Timer Settings Section -->
+    <text x="70" y="90" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Timer Settings</text>
+    
+    <text x="70" y="115" font-family="Arial" font-size="12" fill="#666">Study Duration (minutes)</text>
+    <rect x="250" y="105" width="80" height="20" rx="4" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+    <text x="285" y="120" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">25</text>
+    
+    <text x="70" y="145" font-family="Arial" font-size="12" fill="#666">Break Duration (minutes)</text>
+    <rect x="250" y="135" width="80" height="20" rx="4" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+    <text x="285" y="150" font-family="Arial" font-size="12" fill="#333" text-anchor="middle">5</text>
+    
+    <!-- Focus Mode Settings -->
+    <text x="70" y="175" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Focus Mode Settings</text>
+    
+    <text x="70" y="195" font-family="Arial" font-size="12" fill="#666">Websites to Block</text>
+    <rect x="70" y="205" width="260" height="40" rx="4" fill="#f0f0f0" stroke="#e0e0e0" stroke-width="1" />
+    <text x="80" y="225" font-family="Arial" font-size="10" fill="#666">facebook.com</text>
+    <text x="180" y="225" font-family="Arial" font-size="10" fill="#666">twitter.com</text>
+    <text x="280" y="225" font-family="Arial" font-size="10" fill="#666">youtube.com</text>
+    
+    <!-- Save Button -->
+    <rect x="230" y="255" width="100" height="30" rx="15" fill="#4a6fd3" />
+    <text x="280" y="275" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Save Settings</text>
+    
+    <!-- Hand pointer -->
+    <polygon points="170,230 160,250 180,250" fill="#333" opacity="0.7" />
+    <circle cx="170" cy="230" r="8" fill="#333" opacity="0.7" />
+    
+    <!-- Customization Text -->
+    <text x="140" y="270" font-family="Arial" font-size="12" fill="#4a6fd3" font-weight="bold">Customize to your needs!</text>
+</svg>

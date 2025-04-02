@@ -1,0 +1,29 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Video Thumbnail Background -->
+    <rect x="0" y="0" width="600" height="400" rx="10" fill="#f0f0f0" />
+    
+    <!-- Video Content Background -->
+    <rect x="50" y="50" width="500" height="300" rx="5" fill="#4a6fd3" />
+    
+    <!-- StudyBuddy UI Elements -->
+    <rect x="100" y="100" width="400" height="200" rx="8" fill="white" />
+    
+    <!-- Timer Display -->
+    <text x="300" y="170" font-family="Arial" font-size="40" fill="#4a6fd3" font-weight="bold" text-anchor="middle">25:00</text>
+    <text x="300" y="200" font-family="Arial" font-size="16" fill="#999" text-anchor="middle">Focus Session</text>
+    
+    <!-- Control Buttons -->
+    <rect x="200" y="230" width="80" height="30" rx="15" fill="#4a6fd3" />
+    <text x="240" y="250" font-family="Arial" font-size="14" fill="white" text-anchor="middle">Start</text>
+    
+    <rect x="320" y="230" width="80" height="30" rx="15" fill="white" stroke="#4a6fd3" stroke-width="1" />
+    <text x="360" y="250" font-family="Arial" font-size="14" fill="#4a6fd3" text-anchor="middle">Reset</text>
+    
+    <!-- Play Button Overlay -->
+    <circle cx="300" cy="200" r="50" fill="black" opacity="0.7" />
+    <polygon points="285,175 285,225 325,200" fill="white" />
+    
+    <!-- Video Caption -->
+    <rect x="150" y="320" width="300" height="30" rx="15" fill="white" opacity="0.8" />
+    <text x="300" y="340" font-family="Arial" font-size="14" fill="#333" text-anchor="middle">StudyBuddy in Action - Watch Demo</text>
+</svg>

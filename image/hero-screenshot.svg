@@ -1,0 +1,50 @@
+<svg width="600" height="400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Chrome Browser Window Frame -->
+    <rect x="0" y="0" width="600" height="400" rx="10" fill="#f0f0f0" />
+    <rect x="10" y="30" width="580" height="360" rx="5" fill="white" />
+
+    <!-- Browser Controls -->
+    <circle cx="25" cy="15" r="5" fill="#ff6058" />
+    <circle cx="45" cy="15" r="5" fill="#ffbd2e" />
+    <circle cx="65" cy="15" r="5" fill="#27c93f" />
+    
+    <!-- Address Bar -->
+    <rect x="100" y="10" width="400" height="20" rx="10" fill="#e0e0e0" />
+    <text x="120" y="24" font-family="Arial" font-size="12" fill="#555">chrome-extension://studybuddy/popup.html</text>
+    
+    <!-- Extension Popup Content -->
+    <rect x="150" y="60" width="300" height="300" rx="8" fill="#ffffff" stroke="#4a6fd3" stroke-width="2" />
+    
+    <!-- Header -->
+    <rect x="150" y="60" width="300" height="50" rx="8 8 0 0" fill="#4a6fd3" />
+    <text x="300" y="90" font-family="Arial" font-size="16" fill="white" text-anchor="middle">StudyBuddy</text>
+    
+    <!-- Timer Section -->
+    <text x="300" y="130" font-family="Arial" font-size="35" fill="#4a6fd3" font-weight="bold" text-anchor="middle">25:00</text>
+    <text x="300" y="150" font-family="Arial" font-size="12" fill="#999" text-anchor="middle">Study Session</text>
+    
+    <!-- Buttons -->
+    <rect x="200" y="170" width="60" height="30" rx="5" fill="#4a6fd3" />
+    <text x="230" y="190" font-family="Arial" font-size="12" fill="white" text-anchor="middle">Start</text>
+    
+    <rect x="270" y="170" width="60" height="30" rx="5" fill="white" stroke="#4a6fd3" stroke-width="1" />
+    <text x="300" y="190" font-family="Arial" font-size="12" fill="#4a6fd3" text-anchor="middle">Pause</text>
+    
+    <rect x="340" y="170" width="60" height="30" rx="5" fill="white" stroke="#4a6fd3" stroke-width="1" />
+    <text x="370" y="190" font-family="Arial" font-size="12" fill="#4a6fd3" text-anchor="middle">Reset</text>
+    
+    <!-- Focus Mode Toggle -->
+    <rect x="200" y="220" width="200" height="1" fill="#eee" />
+    <text x="220" y="240" font-family="Arial" font-size="12" fill="#555">Focus Mode</text>
+    <rect x="320" y="230" width="40" height="20" rx="10" fill="#4a6fd3" />
+    <circle cx="350" cy="240" r="8" fill="white" />
+    
+    <!-- Stats Section -->
+    <rect x="170" y="270" width="120" height="70" rx="5" fill="#f9f9f9" />
+    <text x="230" y="290" font-family="Arial" font-size="10" fill="#999" text-anchor="middle">Today's Study</text>
+    <text x="230" y="315" font-family="Arial" font-size="16" fill="#333" font-weight="bold" text-anchor="middle">120 min</text>
+    
+    <rect x="310" y="270" width="120" height="70" rx="5" fill="#f9f9f9" />
+    <text x="370" y="290" font-family="Arial" font-size="10" fill="#999" text-anchor="middle">Current Streak</text>
+    <text x="370" y="315" font-family="Arial" font-size="16" fill="#333" font-weight="bold" text-anchor="middle">5 days</text>
+</svg>

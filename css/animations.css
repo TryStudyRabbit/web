@@ -1,0 +1,220 @@
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animation Classes */
+.animate-in {
+    opacity: 0;
+    animation: fadeIn 0.8s forwards;
+    animation-play-state: paused;
+}
+
+.animate-right {
+    opacity: 0;
+    animation: slideInRight 0.8s forwards;
+    animation-play-state: paused;
+}
+
+.animate-left {
+    opacity: 0;
+    animation: slideInLeft 0.8s forwards;
+    animation-play-state: paused;
+}
+
+.animate-scale {
+    opacity: 0;
+    animation: scaleIn 0.8s forwards;
+    animation-play-state: paused;
+}
+
+.animate-float {
+    animation: float 4s ease-in-out infinite;
+}
+
+.animate-pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.animate-spin {
+    animation: spin 10s linear infinite;
+}
+
+/* Animation Delays */
+.delay-1 {
+    animation-delay: 0.2s;
+}
+
+.delay-2 {
+    animation-delay: 0.4s;
+}
+
+.delay-3 {
+    animation-delay: 0.6s;
+}
+
+.delay-4 {
+    animation-delay: 0.8s;
+}
+
+.delay-5 {
+    animation-delay: 1s;
+}
+
+/* Intersection Observer to trigger animations when elements are in view */
+.animate-on-scroll {
+    opacity: 0;
+    transition: opacity 0.6s, transform 0.6s;
+}
+
+.animate-on-scroll.fade-in {
+    transform: translateY(20px);
+}
+
+.animate-on-scroll.slide-right {
+    transform: translateX(-50px);
+}
+
+.animate-on-scroll.slide-left {
+    transform: translateX(50px);
+}
+
+.animate-on-scroll.scale-in {
+    transform: scale(0.9);
+}
+
+.animate-on-scroll.in-view {
+    opacity: 1;
+    transform: translate(0) scale(1);
+}
+
+/* Feature card hover animations */
+.feature-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Hero image animations */
+.hero-image {
+    position: relative;
+}
+
+.hero-image .screenshot {
+    position: relative;
+    z-index: 2;
+    transition: transform 0.5s ease;
+}
+
+.hero-image:hover .screenshot {
+    transform: translateY(-5px);
+}
+
+.blob-1 {
+    animation: float 8s ease-in-out infinite;
+}
+
+.blob-2 {
+    animation: float 6s ease-in-out infinite reverse;
+}
+
+/* Button hover animations */
+.btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.btn:active {
+    transform: translateY(0);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Play button animation */
+.play-button {
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.video-placeholder:hover .play-button {
+    transform: translate(-50%, -50%) scale(1.1);
+    background-color: var(--primary-color);
+}
